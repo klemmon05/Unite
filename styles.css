@@ -21,8 +21,8 @@ header {
   border-bottom: 1px solid #e4e8ef;
 }
 .nav-wrap { display:flex; align-items:center; justify-content:space-between; padding: .85rem 0; }
-.brand { font-weight: 800; font-size: 1.15rem; color: var(--navy); }
-.brand span { color: var(--teal); }
+.brand { display:inline-flex; align-items:center; color: var(--navy); }
+.brand img { display:block; height: 44px; width: auto; }
 nav ul { margin:0; padding:0; list-style:none; display:flex; gap:1rem; flex-wrap:wrap; }
 nav a { font-size: .92rem; color:#2a3f57; padding:.35rem .5rem; border-radius:8px; }
 nav a:hover, nav a.active { background:#e9f2fa; color: var(--blue); }
